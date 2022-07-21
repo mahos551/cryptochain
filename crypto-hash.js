@@ -6,7 +6,7 @@ const cryptoHash = (...inputs) => {
 
     hash.update(inputs.sort().join(' '));
 
-    return hash.digest('hex')
+    return hash.digest('hex');
 
 };
 
